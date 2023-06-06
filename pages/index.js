@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Head from "next/head";
 import {
   AiFillTwitterCircle,
@@ -10,7 +10,7 @@ import { useState } from "react";
 // import Nang from "../public/Nang.png"
 import deved from "../public/dev-ed-wave.png";
 import html from "../public/html.png";
-import css from "../public/css.png"
+import css from "../public/css.png";
 import java from "../public/java.png";
 import JavaScript from "../public/JavaScript.png";
 import sql from "../public/sql.png";
@@ -81,32 +81,23 @@ export default function Home() {
         </section>
 
         <section>
-        <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Education</h3>
-            <p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">
-               - Computer Academy STEP Cambodia (2021 - Now)
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            As a skilled programmer, I have expertise in several programming languages, including C, C++, and Java. I have a deep understanding of these languages and their applications, allowing me to develop high-quality software solutions that are efficient and effective. Additionally, I have experience with database management systems, including SQL and MySQL server. This knowledge allows me to design and implement robust database structures, ensuring data integrity and security.
-            </p>
-
-            <p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">
-              - Institute of Science and Technology Advanced Development - ISTAD (2022 - Now)
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            As a skilled programmer, I have expertise in several programming languages, including C, C++, and Java. I have a deep understanding of these languages and their applications, allowing me to develop high-quality software solutions that are efficient and effective. Additionally, I have experience with database management systems, including SQL and MySQL server. This knowledge allows me to design and implement robust database structures, ensuring data integrity and security.
+          <div>
+            <h3 className="text-3xl py-2 dark:text-white ">Introduction</h3>
+            <p className="text-md py-3 leading-8 text-gray-800 dark:text-gray-200">
+              Hello there! My name is [Your Name], and I am a skilled programmer
+              and web developer. I have a passion for technology and have
+              dedicated my education and career to mastering a variety of
+              programming languages and tools.
             </p>
           </div>
         </section>
 
         <section>
           <div>
-          <h5 className="text-2xl py-2 dark:text-white ">Skills</h5>
-          <h1 className="text-4xl py-2 leading-8 text-gray-800 dark:text-gray-200 ">
-              What Can I do ? 
+            <h5 className="text-2xl py-2 dark:text-white ">Skills</h5>
+            <h1 className="text-4xl py-2 leading-8 text-gray-800 dark:text-gray-200 ">
+              What Can I do ?
             </h1>
-          
-       
           </div>
 
           <div className="lg:flex gap-10">
@@ -153,7 +144,6 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">React</h3>
             </div>
           </div>
-
         </section>
         <section className="py-10">
           <div>
